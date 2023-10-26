@@ -17,14 +17,13 @@ For the given assignment I have created 3 classes in C#. 1. GetSet 2. DirWalker 
 
 ###### How to Run: 
 1. Clone the repo and open the files using a solution file of the project.
-2. Make sure all three files are opened and running DirWalker, GetSet, And ReadWrite.
+2. Make sure all three files are opened and running DirWalker, GetSet, And ReadWrite. And my main class is in DirWalker.
 3. Run the project, and a console will open asking you to enter the path. Give a valid path (The program will end if the path is not valid and you have to rerun it.)
-4. You will see a message "Processing of all files started" stating that the processing has started. It will also print the **Root Path** which is given by you. **Output Path** where output.csv file will be created. **Log Path** where the log file will be created.
-5. All exceptions caught will be printed on the console.
-6. At the very end the message "Processing of files ended. The log file has been created and can be found in the logs directory" will be printed on the console stating that the program has finished running.
-7. You can access the log file and CSV file in the path mentioned. You do not need to provide an extra path for CSV or log file, it will be created by code.
-8. At the start of the log you will find all the skipped rows, that have been logged into the file. 
-9. At the end of the log file you will be able to find the "Total execution time", "Total skipped rows", "Total valid rows"
+4. You will see a message "Processing of all files started" stating that the processing has started.
+5. When processing is done, at the very end the message "Processing of files ended. The log file has been created and can be found in the logs directory" will be printed on the console. It will also print the **Root Path** which is given by you. **Output Path** where output.csv file will be created. **Log Path** where the log file will be created.
+6. You can access the log file and CSV file in the path mentioned. You do not need to provide an extra path for CSV or log file, it will be created by code.
+7. At the start of the log you will find all the skipped rows, that have been logged into the file. 
+8. At the end of the log file, you will be able to find the "Total execution time", "Total skipped rows", "Total valid rows"
 
 For example :
 If the path given is ProjAssign1/ 
